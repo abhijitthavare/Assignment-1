@@ -1,5 +1,18 @@
 import React from "react";
-import {createRoot, CreateRoot} from "react-dom/client";
-import App from "./App";
+import{createRoot} from "react-dom/client"
+import Cricket from "./JESON cricket card/Cricket";
+// import Img from "./photos/Img";
 
-createRoot(document.getElementById('root')).render(<App/>)
+// import App from "./props CBC/App";
+
+// import Netflix from "./Netflix/Netflix";
+
+// import App from './props/App';
+
+
+
+// createRoot(document.getElementById('root')).render(<Netflix/>)
+// createRoot(document.getElementById('root')).render(<App/>)
+// createRoot(document.getElementById('root')).render(<App/>)
+// createRoot(document.getElementById('root')).render(<Img/>)
+createRoot(document.getElementById('root')).render(<Cricket/>)

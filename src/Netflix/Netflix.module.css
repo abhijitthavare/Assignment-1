@@ -1,0 +1,24 @@
+.main{
+    display: flex;
+    justify-content:space-around ;
+    border: 1px solid black;
+    height: 75px;
+    background-color:black;
+    
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    
+
+}
+a{
+    margin: 20px;
+    color: white;
+    text-decoration: none;
+    
+}
+img{
+    height: 70px;
+    width: 100px;
+}
